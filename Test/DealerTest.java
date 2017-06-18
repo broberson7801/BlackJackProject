@@ -30,7 +30,7 @@ public class DealerTest {
 	}
 
 	@Test
-	public void test_method_dealCards_for_removal_of_cards_from_the_deck() {
+	public void test_method_reoveCards_for_removal_of_cards_from_the_deck() {
 		// Test will fail if assert Equals
 		String before = dealer.getDeck().toString();
 		dealer.dealCards(4);
